@@ -5,6 +5,7 @@ import twitter from '../../images/twitter.png';
 import linkedin from '../../images/linkedin.png';
 import instagram from '../../images/instagram.png';
 import youtube from '../../images/youtube.png';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return(
@@ -36,12 +37,24 @@ const Header = () => {
             </div>
             <div className="menu-row">
                 <div className="menu-container">
-                    <div>Home</div>
-                    <div>Services</div>
-                    <div>AboutUs</div>
-                    <div>Gallery</div>
-                    <div>FAQ</div>
-                    <div>Contact</div>
+                    <NavLink className="nav" to="/">
+                        <div>Home</div>
+                    </NavLink> 
+                    <NavLink className="nav" to="/">
+                        <div>Services</div>
+                    </NavLink> 
+                    <NavLink className="nav" to="/">
+                        <div>AboutUs</div>
+                    </NavLink> 
+                    <NavLink className="nav" to="/">
+                        <div>Gallery</div>
+                    </NavLink> 
+                    <NavLink className="nav" to="/">
+                        <div>FAQ</div>
+                    </NavLink> 
+                    <NavLink className="nav" to="/">
+                        <div>Contact</div>
+                    </NavLink> 
                 </div>
             </div>
         </div>

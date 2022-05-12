@@ -141,9 +141,41 @@
                 width: 100%;
                 height: 100%;
                 display: flex;
-                justify-content: center;
                 align-items: center;
-                background-color: green;
+
+                .hero-text{
+                    width: 400px;
+                    height: 100%;
+
+                    .headText{
+                        color:#fff;
+                        line-height: 55px;
+                        font-size: 40px;
+                    }
+
+                    .texts{
+                        color: #fff;
+                    }
+
+                    .footerText{
+                        font-size: 10px;
+                        margin-top: 20px;
+                        color: #fff;
+                    }
+
+                    .buttons-container{
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 50px;
+                        width: 80%;
+                        justify-content: space-between;
+
+                        .buy{
+                            width: 100px;
+                            border-radius: 0px;
+                        }
+                    }
+                }
             }
 
             .right-hero{

@@ -3,15 +3,24 @@ import '../styles/Home.scss';
 import Header from '../components/Home/Header';
 
 const Home = () => {
-    const options = [];
-    const [values, setValues] = useState();
     return(
         <div className="container">
             <div className="top-level"></div>
             <Header />
             <div className="hero">
                 <div className="hero-content">
-                    <div className="left-hero">first</div>
+                    <div className="left-hero">
+                        <div className="hero-text">
+                            <h1 className="headText">Specialists in Kaduna apartments and housing investments</h1>
+                            <div className="texts">Affordable real estate agent in Kaduna</div>
+                            <div className="footerText">Nobody knows Kaduna like we do</div>
+                            <div className="buttons-container">
+                                <button className="buy">BUY</button>
+                                <button className="buy">RENT</button>
+                                <button className="buy">SELL</button>
+                            </div>
+                        </div>
+                    </div>
                     <div className="right-hero">
                         <div className="card-right">
                             <div className="card-content">

@@ -259,8 +259,7 @@
 
     .stat-section{
         width: 100%;
-        height: 400px;
-        background-color: green;
+        height: 410px;
         display: flex;
         flex-direction: row;
 
@@ -275,7 +274,38 @@
             .breif-container{
                 width: 70%;
                 height: 100%;
-                background-color: red;
+
+                .brief-mid{
+                    width: 90%;
+                    height: 100%;
+
+                    .brief-title{
+                        margin-top: 30px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        line-height: 40px;
+                        color: #0b4545;
+                    }
+    
+                    .paragh1{
+                        font-size: 12px;
+                        line-height: 25px;
+                        margin-top: 10px;
+                        color: #000;
+                        margin-bottom: 20px;
+                    }
+
+                    .download{
+                        width: 95%;
+                        height: 30px;
+                        border: 1px solid #0b4545;
+                        display: flex;
+                        align-items: center;
+                        font-size: 10px;
+                        padding-left: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
             }
         }
 
@@ -290,7 +320,6 @@
             .stats-container{
                 width: 70%;
                 height: 100%;
-                background-color: green;
             }
         }
     }

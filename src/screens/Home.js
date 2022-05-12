@@ -21,25 +21,26 @@ const Home = () => {
                                 </div>
                                 <div className="select-div">
                                     <select style={selects}>
-                                        <option>Kaduna</option>
+                                        <option disabled selected hidden >Min price</option>
                                         <option>Abuja</option>
                                         <option>Lagos</option>
                                     </select>
                                 </div>
                                 <div className="select-div">
                                     <select style={selects}>
-                                        <option>Kaduna</option>
+                                        <option disabled selected hidden >Max price</option>
                                         <option>Abuja</option>
                                         <option>Lagos</option>
                                     </select>
                                 </div>
                                 <div className="select-div">
                                     <select style={selects}>
-                                        <option>Kaduna</option>
+                                        <option disabled selected hidden>Bedrooms</option>
                                         <option>Abuja</option>
                                         <option>Lagos</option>
                                     </select>
                                 </div>
+                                <button style={{borderRadius:'0px'}} className="search-button">SEARCH</button>
                             </div>
                         </div>
                     </div>

@@ -17,6 +17,23 @@ const Home = () => {
                             <div className="card-content">
                                 <div className="property">FIND A PROPERTY</div>
                                 <div className="select-div">
+                                    <input style={searchInput} type="text" placeholder={'Keyword or ID'}/>
+                                </div>
+                                <div className="select-div">
+                                    <select style={selects}>
+                                        <option>Kaduna</option>
+                                        <option>Abuja</option>
+                                        <option>Lagos</option>
+                                    </select>
+                                </div>
+                                <div className="select-div">
+                                    <select style={selects}>
+                                        <option>Kaduna</option>
+                                        <option>Abuja</option>
+                                        <option>Lagos</option>
+                                    </select>
+                                </div>
+                                <div className="select-div">
                                     <select style={selects}>
                                         <option>Kaduna</option>
                                         <option>Abuja</option>
@@ -39,7 +56,17 @@ const selects = {
     outline:'none',
     backgroundColor:'rgba(11, 69, 69, 0)',
     color:'#fff',
-    marginLeft:'10px'
+    marginLeft:'10px',
+}
+
+const searchInput = {
+    width:'90%',
+    height:'25px',
+    backgroundColor:'rgba(11, 69, 69, 0)',
+    outline:'none',
+    border:'none',
+    marginLeft:'10px',
+    color:'#fff',
 }
 
 export default Home;

@@ -63,19 +63,19 @@ const Home = () => {
                         />
                         <ServiceCard 
                             img={house} 
-                            title={"UPCOMING AUCTIONS"} 
+                            title={"CURRENT OPEN HOMES"} 
                             content={"View our upcoming auction"} 
                             view={"VIEW AUCTIONS"}
                         />
                         <ServiceCard 
                             img={property} 
-                            title={"UPCOMING AUCTIONS"} 
+                            title={"PROPERTY MANAGEMENT"} 
                             content={"View our upcoming auction"} 
                             view={"VIEW AUCTIONS"}
                         />
                         <ServiceCard 
                             img={delivery} 
-                            title={"UPCOMING AUCTIONS"} 
+                            title={"CUSTOMER SERVICE"} 
                             content={"View our upcoming auction"} 
                             view={"VIEW AUCTIONS"}
                         />

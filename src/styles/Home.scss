@@ -356,7 +356,6 @@
 
     .estate-section{
         width: 100%;
-        height: 800px;
         background-image: url("../images//background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -388,5 +387,199 @@
                 color: #0b4545;
             }
         }
+
+        .estate-title2{
+            width: 90%;
+            height: 38px;
+            margin-top: 80px;
+            border: 8px solid #0b4545;
+            border-bottom: none;
+            border-right: none;
+            border-top: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .first2{
+                font-size: 11px;
+                margin-left: 10px;
+            }
+
+            .second2{
+                font-size: 14px;
+                font-weight: bolder;
+                margin-left: 10px;
+                color: #0b4545;
+            }
+        }
+
+        .thumbnails{
+            width: 91%;
+            height: 800px;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px 20px;
+
+            div{
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                div, h2{
+                    color: #fff;
+                }
+            }
+
+            .firstGrid{
+                overflow: hidden;
+                background-image: url("../images/loc1.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                line-height: 10px;
+            }
+
+            .secondGrid{
+                overflow: hidden;
+                background-image: url("../images/loc2.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                line-height: 10px;
+            }
+
+            .thirdGrid{
+                overflow: hidden;
+                background-image: url("../images/loc2.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                line-height: 10px;
+            }
+
+            .fourthGrid{
+                overflow: hidden;
+                background-image: url("../images/loc4.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                line-height: 10px;
+            }
+        }
+    }
+
+    .why-us{
+        width: 100%;
+        height: 300px;
+        background-color: red;
+    }
+
+    .why-details{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .details-container{
+            width: 90%;
+            height: 500px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 30px;
+
+            .one{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: blue;
+            }
+    
+            .two{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: green;
+            }
+    
+            .three{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: yellow;
+            }
+    
+            .four{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #0b4545;
+            }
+        }
+    }
+
+    .agents-container{
+        width: 100%;
+        height: 1000px;
+        background-image: url("../images//background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .estate-title{
+            width: 90%;
+            height: 38px;
+            margin-top: 50px;
+            border: 8px solid #0b4545;
+            border-bottom: none;
+            border-right: none;
+            border-top: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .first{
+                font-size: 11px;
+                margin-left: 10px;
+            }
+
+            .second{
+                font-size: 14px;
+                font-weight: bolder;
+                margin-left: 10px;
+                color: #0b4545;
+            }
+        }
+
+        .agent-grid{
+            width: 90%;
+            height: 800px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px 20px;
+            margin-top: 20px;
+
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: green;
+            }
+        }
+    }
+
+    .footer{
+        width: 100%;
+        height: 600px;
+        background-color: black;
     }
 }

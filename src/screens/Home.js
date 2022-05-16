@@ -12,6 +12,11 @@ import home from '../images/home.png';
 import trust from '../images/trust.png';
 import finances from '../images/finances.png';
 import supports from '../images/supports.png';
+import facebook from '../images/facebook.png';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
+import instagram from '../images/instagram.png';
+import youtube from '../images/youtube.png';
 
 const Home = () => {
 
@@ -92,7 +97,28 @@ const Home = () => {
                 </div>
             </div>
             <div className="footer">
-
+                <div className="footer-menu">
+                    <div className="footer-menu-container">
+                        <div>Home</div>
+                        <div>Services</div>
+                        <div>AboutUs</div>
+                        <div>Galllery</div>
+                        <div>FAQ</div>
+                        <div>Contact</div>
+                    </div>
+                </div>
+                <div className="email-contact">
+                    <input type="email" placeholder="Email" className="email-input" />
+                    <button className="email-button">SEND</button>
+                </div>
+                <div className="join">Join Us</div>
+                <div className="footer-social" >
+                    <img style={{width:'30px', height:'30px'}} src={facebook} alt="icon" />
+                    <img style={{width:'30px', height:'30px'}} src={twitter} alt="icon" />
+                    <img style={{width:'30px', height:'30px'}} src={linkedin} alt="icon" />
+                    <img style={{width:'30px', height:'30px'}} src={instagram} alt="icon" />
+                    <img style={{width:'30px', height:'30px'}} src={youtube} alt="icon" />
+                </div>
             </div>
         </div>
     )

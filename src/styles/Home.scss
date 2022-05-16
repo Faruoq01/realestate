@@ -507,33 +507,70 @@
             display: grid;
             grid-template-columns: auto auto;
             gap: 30px;
+            margin-top: 30px;
 
             .one{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: blue;
+                flex-direction: column;
+                line-height: 10px;
+
+                .reason{
+                    color: #000;
+                }
+        
+                h3{
+                    color: #000;
+                }
             }
     
             .two{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: green;
+                flex-direction: column;
+                line-height: 10px;
+                
+                .reason{
+                    color: #000;
+                }
+        
+                h3{
+                    color: #000;
+                }
             }
     
             .three{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: yellow;
+                flex-direction: column;
+                line-height: 10px;
+                
+                .reason{
+                    color: #000;
+                }
+        
+                h3{
+                    color: #000;
+                }
             }
     
             .four{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: #0b4545;
+                flex-direction: column;
+                line-height: 10px;
+                
+                .reason{
+                    color: #000;
+                }
+        
+                h3{
+                    color: #000;
+                }
             }
         }
     }

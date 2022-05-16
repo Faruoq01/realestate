@@ -5,6 +5,10 @@ import HeroArea from '../components/Home/HeroArea';
 import ServiceSection from '../components/Home/ServiceSection';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import face from '../images/face.png';
+import twitt from '../images/twitt.png';
+import insta from '../images/insta.png';
+import linked from '../images/linked.png';
 
 const Home = () => {
     
@@ -87,7 +91,25 @@ const Home = () => {
                     <div className="second">AGENTS</div>
                 </div>
                 <div className="agent-grid">
-                    <div>1</div>
+                    <div className="agent-card">
+                        <div className="top">
+                            <div className="social-media">
+                                <div>
+                                    <img style={{width:'20px', height:'20px'}} src={face} alt="icon" />
+                                </div>
+                                <div>
+                                    <img style={{width:'25px', height:'25px'}} src={twitt} alt="icon" />
+                                </div>
+                                <div>
+                                    <img style={{width:'20px', height:'20px'}} src={insta} alt="icon" />
+                                </div>
+                                <div>
+                                    <img style={{width:'20px', height:'20px'}} src={linked} alt="icon" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bottom">2</div>
+                    </div>
                     <div>2</div>
                     <div>3</div>
                     <div>4</div>

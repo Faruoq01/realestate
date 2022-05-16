@@ -11,6 +11,33 @@ import insta from '../images/insta.png';
 import linked from '../images/linked.png';
 
 const Home = () => {
+
+    const AgentCard = () => {
+        return(
+            <div className="agent-card">
+                <div className="top">
+                    <div className="social-media">
+                        <div>
+                            <img style={{width:'20px', height:'20px'}} src={face} alt="icon" />
+                        </div>
+                        <div>
+                            <img style={{width:'25px', height:'25px'}} src={twitt} alt="icon" />
+                        </div>
+                        <div>
+                            <img style={{width:'20px', height:'20px'}} src={insta} alt="icon" />
+                        </div>
+                        <div>
+                            <img style={{width:'20px', height:'20px'}} src={linked} alt="icon" />
+                        </div>
+                    </div>
+                </div>
+                <div className="bottom">
+                    <div className="agent-name">Engr. Aminu Umar Faruk</div>
+                    <div className="agent-title">Real Estate Agent</div> 
+                </div>
+            </div>
+        )
+    }
     
     return(
         <div className="container">
@@ -75,7 +102,8 @@ const Home = () => {
                 </div>
             </div>
             <div className="why-us">
-
+                <h1>Why Choose Us</h1>
+                <div className="reason">We offer a perfect real estate services.</div>
             </div>
             <div className= "why-details">
                 <div className="details-container">
@@ -91,30 +119,12 @@ const Home = () => {
                     <div className="second">AGENTS</div>
                 </div>
                 <div className="agent-grid">
-                    <div className="agent-card">
-                        <div className="top">
-                            <div className="social-media">
-                                <div>
-                                    <img style={{width:'20px', height:'20px'}} src={face} alt="icon" />
-                                </div>
-                                <div>
-                                    <img style={{width:'25px', height:'25px'}} src={twitt} alt="icon" />
-                                </div>
-                                <div>
-                                    <img style={{width:'20px', height:'20px'}} src={insta} alt="icon" />
-                                </div>
-                                <div>
-                                    <img style={{width:'20px', height:'20px'}} src={linked} alt="icon" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="bottom">2</div>
-                    </div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                    <div>5</div>
-                    <div>6</div>
+                    <AgentCard />
+                    <AgentCard />
+                    <AgentCard />
+                    <AgentCard />
+                    <AgentCard />
+                    <AgentCard />
                 </div>
             </div>
             <div className="footer">

@@ -49,7 +49,9 @@ const Home = () => {
     
     return(
         <div className="container">
-            <div className="top-level"></div>
+            <div className="top-level">
+                <div></div>
+            </div>
             <Header />
             <HeroArea />
             <ServiceSection />
